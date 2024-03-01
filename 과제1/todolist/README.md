@@ -1,46 +1,14 @@
-# Getting Started with Create React App
+### /src
+  #### /components
+    ##### /List
+      - **List.tsx:** 전체 리스트를 관리하는 컴포넌트. Redux store에서 리스트 데이터를 가져와 각 항목에 대한 컴포넌트를 렌더링하고, Add와 Delete 기능을 구현함.
+      - **ListItem.tsx:** 각 항목을 나타내는 컴포넌트. 리스트의 각 요소를 렌더링하고, Delete 버튼을 클릭할 때 해당 항목을 삭제하는 기능을 구현함.
+  #### /store
+    - **index.ts:** Redux store를 생성하고 내보냄.
+    - **listSlice.ts:** Redux Toolkit을 사용하여 Redux 상태 및 액션을 정의하는 슬라이스. 리스트의 추가 및 삭제와 관련된 액션을 정의하고, 이를 통해 상태를 업데이트함.
+- **App.tsx:** 전체 애플리케이션을 렌더링하는 루트 컴포넌트. 
+- **index.tsx:** 애플리케이션의 진입점. App 컴포넌트를 렌더링함.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+2가지 기능
+1. input 창에 list1을 입력 후 Add 버튼을 누르면 input 창 하단에 list1 컴포넌트가 뜹니다.
+2. 각 list의 delete 버튼을 누르면 해당 list 컴포넌트가 삭제됩니다.
