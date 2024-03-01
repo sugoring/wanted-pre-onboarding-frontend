@@ -12,6 +12,6 @@
 
 ---
 
-과제 1 링크: [https://github.com/sugoring/wanted-pre-onboarding-frontend/tree/main/todolist](https://github.com/sugoring/wanted-pre-onboarding-frontend/tree/main/todolist)
+과제 1 링크: [https://github.com/sugoring/wanted-pre-onboarding-frontend/tree/main/%EA%B3%BC%EC%A0%9C1](https://github.com/sugoring/wanted-pre-onboarding-frontend/tree/main/%EA%B3%BC%EC%A0%9C1)
 
 과제 2 링크: [https://github.com/sugoring/wanted-pre-onboarding-frontend/blob/main/%EA%B3%BC%EC%A0%9C2.md](https://github.com/sugoring/wanted-pre-onboarding-frontend/blob/main/%EA%B3%BC%EC%A0%9C2.md)
