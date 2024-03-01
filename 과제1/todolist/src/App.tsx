@@ -1,6 +1,7 @@
 import React from 'react';
 import InputForm from './components/InputForm/InputForm'; 
 import List from './components/List/List';
+import './App.css';
 
 import { useSelector } from 'react-redux'; // Redux의 useSelector 훅 불러오기
 import store from './store/index'; // Redux 스토어 불러오기

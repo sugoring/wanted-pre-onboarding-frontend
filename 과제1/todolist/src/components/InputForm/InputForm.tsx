@@ -1,6 +1,7 @@
 import React, { useState } from 'react'; 
 import { useDispatch } from 'react-redux'; 
 import { addListItem } from '../../store/index'; 
+import './../../App.css';
 
 // 사용자가 입력한 값을 받아 리스트에 추가하는 입력 폼을 제공합니다.
 

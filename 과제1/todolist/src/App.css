@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
-}
+/* app.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Common styles */
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  width: 400px;
+}
+
+/* InputForm styles */
+.input-form {
+  font-size: 16px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%; /* Take up full width */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.input-form input[type="text"] {
+  width: calc(100% - 20px); /* Adjust width to account for padding */
+  border: none;
+  outline: none;
+}
+
+.input-form button {
+  padding: 8px 16px;
+  background-color: #007bff;
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.input-form button:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* List styles */
+.list-item {
+  margin-bottom: 10px;
+}
+
+.list-item span {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.list-item button {
+  padding: 6px 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.list-item button:hover {
+  background-color: #c82333;
 }

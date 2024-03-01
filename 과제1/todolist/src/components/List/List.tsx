@@ -3,6 +3,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux'; 
 import { removeListItem } from '../../store/index'; 
+import './../../App.css';
 
 interface ListProps {
   text: string; // 리스트 아이템의 text
