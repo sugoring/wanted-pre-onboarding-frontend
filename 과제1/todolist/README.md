@@ -1,26 +1,18 @@
-### 컴포넌트
 
-#### List.tsx
-- 설명: 전체 리스트를 관리하는 컴포넌트로, Redux store에서 리스트 데이터를 가져와 각 항목에 대한 컴포넌트를 렌더링하고, Add와 Delete 기능을 구현합니다.
-  
-#### ListItem.tsx
-- 설명: 각 항목을 나타내는 컴포넌트로, 리스트의 각 요소를 렌더링하고, Delete 버튼을 클릭할 때 해당 항목을 삭제하는 기능을 구현합니다.
-  
-#### AddButton.tsx
-- 설명: 리스트에 새로운 항목을 추가하는 버튼 컴포넌트입니다.
-  
-#### DeleteButton.tsx
-- 설명: 리스트에서 항목을 삭제하는 버튼 컴포넌트입니다.
-
-### Redux 스토어
-
-- index.tsx: Redux 스토어를 생성하고 내보냅니다.
-- listSlice.tsx: Redux Toolkit을 사용하여 Redux 상태 및 액션을 정의하는 슬라이스로, 리스트의 추가 및 삭제와 관련된 액션을 정의하고, 이를 통해 상태를 업데이트합니다.
-
-### 애플리케이션 진입점
-
-- App.tsx: 전체 애플리케이션을 렌더링하는 루트 컴포넌트입니다.
-- index.tsx: 애플리케이션의 진입점으로, App 컴포넌트를 렌더링합니다.
+```
+├── src/
+│   ├── components/
+│   │   ├── List/
+│   │   │   ├── List.tsx
+│   │   │   └── List.css
+│   │   └── InputForm/
+│   │       ├── InputForm.tsx
+│   │       └── InputForm.css
+│   ├── store/
+│   │   └── index.ts
+│   ├── App.tsx
+│   └── index.tsx
+```
 
 ### 기능
 
