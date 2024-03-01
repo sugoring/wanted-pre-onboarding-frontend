@@ -1,26 +1,21 @@
+// src/App.tsx
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import InputForm from './components/InputForm/InputForm';
+import List from './components/List/List';
+import { useSelector } from 'react-redux';
+import store from './store/index';
 
-function App() {
+const App: React.FC = () => {
+  const listItems = useSelector((state: ReturnType<typeof store.getState>) => state.listItems);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <InputForm />
+      {listItems.map(item => (
+        <List key={item.id} text={item.text} id={item.id} />
+      ))}
     </div>
   );
-}
+};
 
 export default App;
