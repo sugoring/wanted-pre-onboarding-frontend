@@ -1,17 +1,24 @@
 # wanted-pre-onboarding-frontend
-
-## 3월 프론트엔드 프리온보딩 과정
-
-이 저장소는 3월 프론트엔드 프리온보딩 과정에 대한 정보를 담고 있습니다.
-
-### 사전 과제 공지 링크
-- [과제 안내](https://github.com/summerdidi/wanted-pre-onboarding-frontend-challenge-19)
-
-### 이력서 링크
-- [이력서](https://drive.google.com/file/d/1SrZ5IBpzmu2ppHymiG-9qXZCyE49Yvmf/view?usp=sharing)
+- 3월 프론트엔드 프리온보딩 과정에서 학습한 내용을 정리한 레퍼지토리
+- 각 세션별로 학습한 내용을 마크다운 형식으로 정리하여 공유
+- 관련 링크: [wanted pre-onboarding](https://www.wanted.co.kr/events/pre_challenge_fe_19)
 
 ---
 
-과제 1 링크: [https://github.com/sugoring/wanted-pre-onboarding-frontend/tree/main/%EA%B3%BC%EC%A0%9C1](https://github.com/sugoring/wanted-pre-onboarding-frontend/tree/main/%EA%B3%BC%EC%A0%9C1)
+# 참여 이유
+- React 프로젝트를 진행하면서, 전반적인 React 이론 학습의 필요성을 가짐
+![React Icon](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/100px-React-icon.svg.png)
 
-과제 2 링크: [https://github.com/sugoring/wanted-pre-onboarding-frontend/blob/main/%EA%B3%BC%EC%A0%9C2.md](https://github.com/sugoring/wanted-pre-onboarding-frontend/blob/main/%EA%B3%BC%EC%A0%9C2.md)
+## 학습 목표
+- 프론트엔드 기술 중 React의 기초 개념을 이해하고 습득하는 것
+
+## 학습 계획 
+- **Web의 역사**: browser 렌더링, AJAX, DOM, Virtual DOM
+- **React 기본 개념**: render() 함수, jsx, hooks
+- **상태 관리**: Redux Toolkit
+- **실무 프로젝트 적용**: project structure, error handling
+- 코딩 컨벤션
+
+---
+
+같은 내용의 글은 [sugoring-it 블로그](https://sugoring-it.tistory.com/category/%EC%9B%B9%20%EA%B0%9C%EB%B0%9C%20%EA%B3%B5%EB%B6%80/React)에도 기술되어 있음
