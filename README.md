@@ -5,7 +5,7 @@
 
 ---
 
-# 참여 이유
+## 참여 이유
 - React 프로젝트를 진행하면서, 전반적인 React 이론 학습의 필요성을 가짐
 ![React Icon](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/100px-React-icon.svg.png)
 
