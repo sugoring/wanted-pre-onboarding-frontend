@@ -16,7 +16,7 @@
 
 ## createAsyncThunk()
 - thunk: Redux 애플리케이션에서 비동기 로직을 처리하기 위한 방법
-- createAsyncThunk() 함수: 비동기 작업을 수행함, 액션 타입 문자열과 프로미스를 반환하는 payload creator 함수를 인자로 받음
+- createAsyncThunk(): 비동기 작업을 수행함, 액션 타입 문자열과 프로미스를 반환하는 payload creator 함수를 인자로 받음
 - 비동기 작업의 세 가지 상태(pending, fulfilled, rejected)에 대해 처리할 수 있는 action types를 자동으로 생성함
 
 ## extraReducers
